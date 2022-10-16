@@ -1,0 +1,18 @@
+# use python brain in this file.
+# # Do all your db connections, ports, any properties your application needs.
+
+server:
+    port: 8085
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/data
+    username: postgres
+    password: Shweta_3695
+    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategy
